@@ -1,5 +1,3 @@
-
-
 resource "azurerm_resource_group" "ace-jenkins-rg" {
   name     = "${var.jenkins_resource_group_name}"
   location = "${var.location}"
